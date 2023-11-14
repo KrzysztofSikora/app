@@ -35,6 +35,3 @@ export const removeUserCredentials = () => {
         sessionStorage.removeItem('token')
 }
 
-export const itItself = () => {
-    return true
-}
