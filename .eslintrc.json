@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "root": true,
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "plugins": [
+
+  ],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "latest"
+    }
+  },
+  "rules": {
+
+  }
+}
